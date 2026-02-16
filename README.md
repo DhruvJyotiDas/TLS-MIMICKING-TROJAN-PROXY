@@ -1,6 +1,6 @@
 ﻿# TLS-MIMICKING-TROJAN-PROXY
 # Self-Hosted Trojan TLS VPN (Port 443 Obfuscation)
-
+![Project Banner](docs/banner.png)
 A research-oriented implementation of a self-hosted VPN using **Trojan over TLS (port 443)** to bypass restrictive campus firewalls by mimicking normal HTTPS traffic.
 
 This project demonstrates how encrypted proxy traffic can be indistinguishable from legitimate web browsing using real certificates and standard web ports.
@@ -15,10 +15,18 @@ This project demonstrates how encrypted proxy traffic can be indistinguishable f
 * Hosted on **Oracle Cloud Free Tier VPS (India region)**
 * Client routing using **v2rayN (Windows)**
 * Compatible with restrictive networks that block common VPN protocols
+* Oracle Cloud Free Tier VPS (Hyderabad, India region)
+* Configured cloud ingress rules + Ubuntu firewall routing
+
 
 ---
+## 📊 Performance Proof
+
+![IP Verification](docs/ip-proof.png)
+
 
 ## 🧱 Architecture
+![Architecture Diagram](docs/architecture.png)
 
 ```
 Laptop (v2rayN client)
@@ -145,5 +153,6 @@ This project explores:
 ## 📄 License
 
 MIT License
+
 
 
