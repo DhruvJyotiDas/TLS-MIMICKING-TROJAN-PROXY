@@ -1,0 +1,30 @@
+{
+  "run_type": "server",
+  "local_addr": "0.0.0.0",
+  "local_port": 443,
+  "remote_addr": "127.0.0.1",
+  "remote_port": 80,
+
+  "password": [
+    "CHANGE_THIS_TO_STRONG_PASSWORD"
+  ],
+
+  "log_level": 1,
+
+  "ssl": {
+    "cert": "/etc/letsencrypt/live/YOUR_DOMAIN/fullchain.pem",
+    "key": "/etc/letsencrypt/live/YOUR_DOMAIN/privkey.pem",
+    "key_password": "",
+    "prefer_server_cipher": true,
+    "alpn": ["http/1.1"],
+    "reuse_session": true,
+    "session_ticket": false
+  },
+
+  "tcp": {
+    "no_delay": true,
+    "keep_alive": true,
+    "reuse_port": false,
+    "fast_open": false
+  }
+}

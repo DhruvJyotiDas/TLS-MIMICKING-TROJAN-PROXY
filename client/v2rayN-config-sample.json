@@ -1,0 +1,10 @@
+{
+  "protocol": "trojan",
+  "server": "YOUR_DOMAIN",
+  "port": 443,
+  "password": "CHANGE_THIS_TO_STRONG_PASSWORD",
+  "sni": "YOUR_DOMAIN",
+  "allowInsecure": false,
+  "network": "tcp",
+  "tls": true
+}

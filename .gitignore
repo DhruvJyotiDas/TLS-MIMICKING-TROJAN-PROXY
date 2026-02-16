@@ -1,0 +1,6 @@
+*.pem
+*.key
+*.log
+.env
+node_modules/
+.vscode/
